@@ -75,8 +75,8 @@ def process_image(image):
 
 # --- 4. MAIN UI ---
 def main():
-    st.title("Web Classification App")
-    st.write("Upload an image to test your `coat_lite_mini` model.")
+    st.title("Oral Squamous Cell Carcinoma (OSCC) Histopathology Image Classifier")
+    st.write("Upload an histopathology image to classify.")
 
     # -- Sidebar Setup --
     st.sidebar.header("Settings")
